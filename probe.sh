@@ -1,7 +1,7 @@
 #!/bin/bash
 # mprobe v1
 
-# list all file streams with 
+# show all streams in a media file and list essential info 
 
 ### functions ###
 
