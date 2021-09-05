@@ -46,8 +46,8 @@ function subs {
 
 ### main code ###
 
-#video "$1"
-#audio "$1"
-#subs "$1"
+video "$1"
+audio "$1"
+subs "$1"
 
 
