@@ -14,7 +14,8 @@ function video {
         -of default=noprint_wrappers=1:nokey=1 "$1" \
         | tr '\n' ' '
         n=$(( n + 1 ))
-        echo
+        if [ -z 2>&1 ]; then echo -n
+        else echo; fi
     done
 }
 
@@ -27,7 +28,8 @@ function audio {
         -of default=noprint_wrappers=1:nokey=1 "$1" \
         | tr '\n' ' '
         n=$(( n + 1 ))
-        echo
+        if [ -z 2>&1 ]; then echo -n
+        else echo; fi
     done
 }
 
@@ -40,7 +42,8 @@ function subs {
         -of default=noprint_wrappers=1:nokey=1 "$1" \
         | tr '\n' ' '
         n=$(( n + 1 ))
-        echo
+        if [ -z 2>&1 ]; then echo -n
+        else echo; fi
     done
 }
 
