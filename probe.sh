@@ -1,5 +1,5 @@
 #!/bin/bash
-# mprobe v2
+# probe v3
 
 # show all streams in a media file and list essential info 
 
